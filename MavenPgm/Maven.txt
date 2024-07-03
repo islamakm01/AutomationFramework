@@ -1,0 +1,10 @@
+
+
+in to the git repo
+
+
+jenkins - git repo
+
+
+jenkins - pom.xml - testng.xml - Scripting - Main functionality - Page Object Model will introduced
+
