@@ -118,11 +118,11 @@ public class MAPS1 {
 		driver.findElement(By.xpath("(//div[span[text()='Color option']])[1]")).click();
 		
 		// Click on the first row
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("((//td[@id='col0'])[1]")).click();
 		
 		// Click on the color meta data 
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//span[text()='color']")).click();
 		
 		
@@ -131,11 +131,11 @@ public class MAPS1 {
 		driver.findElement(By.xpath("(//i[@class='tiny sort-header material-icons'])[1]")).click();
 
 		// Click on the first row
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("((//td[@id='col0'])[1]")).click();
 
 		// Click on the color meta data
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//span[text()='color']")).click();
 		
 		
