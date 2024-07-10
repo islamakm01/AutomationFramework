@@ -112,6 +112,8 @@ public class MAPS1 {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='OK']")).click();
 		
+		// changed to wait 2000
+		
 		//========================test 1 =======================================
 		// Click on Color option column
 		Thread.sleep(5000);
