@@ -118,25 +118,51 @@ public class MAPS1 {
 		driver.findElement(By.xpath("(//div[span[text()='Color option']])[1]")).click();
 		
 		// Click on the first row
-		Thread.sleep(5000);
-		driver.findElement(By.xpath("((//td[@id='col0'])[1]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("(//div[text()='color'])[1]")).click();
 		
 		// Click on the color meta data 
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='color']")).click();
 		
 		
 		// Click on Color option column
-		Thread.sleep(5000);
-		driver.findElement(By.xpath("(//i[@class='tiny sort-header material-icons'])[1]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("(//div[span[text()='Color option']])[1]")).click();
 
 		// Click on the first row
-		Thread.sleep(5000);
-		driver.findElement(By.xpath("((//td[@id='col0'])[1]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("(//div[text()='color'])[1]")).click();
 
 		// Click on the color meta data
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='color']")).click();
+		
+		//========================test 2 =======================================
+				// Click on Operating Unit column
+				Thread.sleep(2000);
+				driver.findElement(By.xpath("(//div[span[text()='Operating unit']])[1]")).click();
+				
+				// Click on the first row
+				Thread.sleep(2000);
+				driver.findElement(By.xpath("(//div[text()='CAS'])[1]")).click();
+				
+				// Click on the CAS meta data 
+				Thread.sleep(2000);
+				driver.findElement(By.xpath("//span[text()='CAS']")).click();
+				
+				
+				// Click on Operating Unit column
+				Thread.sleep(2000);
+				driver.findElement(By.xpath("(//div[span[text()='Operating unit']])[1]")).click();
+
+				// Click on the first row
+				Thread.sleep(2000);
+				driver.findElement(By.xpath("(//div[text()='CAS'])[1]")).click();
+
+				// Click on the CAS meta data
+				Thread.sleep(2000);
+				driver.findElement(By.xpath("//span[text()='CAS']")).click();
 		
 		
 		

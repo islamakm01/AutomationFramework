@@ -10,14 +10,6 @@
           <include name="cleanup"/>
         </methods>
       </class> <!-- Excersises.MAPS1 -->
-      <class name="com.test.WebElementList">
-        <methods>
-          <include name="DropDown"/>
-          <include name="cleanUp"/>
-          <include name="Initalization"/>
-          <include name="MouseHovering"/>
-        </methods>
-      </class> <!-- com.test.WebElementList -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
