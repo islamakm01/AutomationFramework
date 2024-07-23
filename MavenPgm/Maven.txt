@@ -8,3 +8,8 @@ jenkins - git repo
 
 jenkins - pom.xml - testng.xml - Scripting - Main functionality - Page Object Model will introduced
 
+
+
+fileinputstream class
+
+reading the properties we should call class - Properties 
