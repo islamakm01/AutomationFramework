@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Excersises.MAPS1">
+      <class name="com.test.WebElementList">
         <methods>
-          <include name="initialization"/>
-          <include name="test2087"/>
-          <include name="cleanup"/>
+          <include name="DropDown"/>
+          <include name="cleanUp"/>
+          <include name="Initalization"/>
         </methods>
-      </class> <!-- Excersises.MAPS1 -->
+      </class> <!-- com.test.WebElementList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

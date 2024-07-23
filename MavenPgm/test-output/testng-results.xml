@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-10T17:48:54 CDT" name="Default suite" finished-at="2024-07-10T17:50:39 CDT" duration-ms="104919">
+  <suite started-at="2024-07-15T15:36:23 CDT" name="Default suite" finished-at="2024-07-15T15:36:35 CDT" duration-ms="12067">
     <groups>
     </groups>
-    <test started-at="2024-07-10T17:48:54 CDT" name="Default test" finished-at="2024-07-10T17:50:39 CDT" duration-ms="104919">
-      <class name="Excersises.MAPS1">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:Excersises.MAPS1@235834f2]" started-at="2024-07-10T17:48:54 CDT" name="initialization" finished-at="2024-07-10T17:49:21 CDT" duration-ms="27397" status="PASS">
+    <test started-at="2024-07-15T15:36:23 CDT" name="Default test" finished-at="2024-07-15T15:36:35 CDT" duration-ms="12067">
+      <class name="com.test.WebElementList">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.WebElementList@77888435]" started-at="2024-07-15T15:36:23 CDT" name="Initalization" finished-at="2024-07-15T15:36:32 CDT" duration-ms="8886" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="test2087()[pri:0, instance:Excersises.MAPS1@235834f2]" started-at="2024-07-10T17:49:21 CDT" name="test2087" finished-at="2024-07-10T17:50:39 CDT" duration-ms="77470" status="PASS">
+        </test-method> <!-- Initalization -->
+        <test-method signature="MouseHovering()[pri:1, instance:com.test.WebElementList@77888435]" started-at="2024-07-15T15:36:32 CDT" name="MouseHovering" finished-at="2024-07-15T15:36:35 CDT" duration-ms="2560" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2087 -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:Excersises.MAPS1@235834f2]" started-at="2024-07-10T17:50:39 CDT" name="cleanup" finished-at="2024-07-10T17:50:39 CDT" duration-ms="1" status="PASS">
+        </test-method> <!-- MouseHovering -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.test.WebElementList@77888435]" started-at="2024-07-15T15:36:35 CDT" name="cleanUp" finished-at="2024-07-15T15:36:35 CDT" duration-ms="570" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- Excersises.MAPS1 -->
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.test.WebElementList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
