@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.WebElementList">
+      <class name="com.excledata.ReadData">
         <methods>
-          <include name="DropDown"/>
-          <include name="cleanUp"/>
-          <include name="Initalization"/>
+          <include name="DataRead"/>
         </methods>
-      </class> <!-- com.test.WebElementList -->
+      </class> <!-- com.excledata.ReadData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
