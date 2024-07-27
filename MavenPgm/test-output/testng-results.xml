@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-15T15:36:23 CDT" name="Default suite" finished-at="2024-07-15T15:36:35 CDT" duration-ms="12067">
+  <suite started-at="2024-07-25T18:05:55 CDT" name="Default suite" finished-at="2024-07-25T18:05:56 CDT" duration-ms="614">
     <groups>
     </groups>
-    <test started-at="2024-07-15T15:36:23 CDT" name="Default test" finished-at="2024-07-15T15:36:35 CDT" duration-ms="12067">
-      <class name="com.test.WebElementList">
-        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.WebElementList@77888435]" started-at="2024-07-15T15:36:23 CDT" name="Initalization" finished-at="2024-07-15T15:36:32 CDT" duration-ms="8886" status="PASS">
+    <test started-at="2024-07-25T18:05:55 CDT" name="Default test" finished-at="2024-07-25T18:05:56 CDT" duration-ms="614">
+      <class name="com.excledata.DataRead2">
+        <test-method signature="dataRead()[pri:0, instance:com.excledata.DataRead2@55183b20]" started-at="2024-07-25T18:05:55 CDT" name="dataRead" finished-at="2024-07-25T18:05:56 CDT" duration-ms="578" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Initalization -->
-        <test-method signature="MouseHovering()[pri:1, instance:com.test.WebElementList@77888435]" started-at="2024-07-15T15:36:32 CDT" name="MouseHovering" finished-at="2024-07-15T15:36:35 CDT" duration-ms="2560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MouseHovering -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.test.WebElementList@77888435]" started-at="2024-07-15T15:36:35 CDT" name="cleanUp" finished-at="2024-07-15T15:36:35 CDT" duration-ms="570" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- com.test.WebElementList -->
+        </test-method> <!-- dataRead -->
+      </class> <!-- com.excledata.DataRead2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
