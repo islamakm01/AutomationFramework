@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-25T18:05:55 CDT" name="Default suite" finished-at="2024-07-25T18:05:56 CDT" duration-ms="614">
+  <suite started-at="2024-07-26T23:52:44 CDT" name="Default suite" finished-at="2024-07-26T23:54:37 CDT" duration-ms="112989">
     <groups>
     </groups>
-    <test started-at="2024-07-25T18:05:55 CDT" name="Default test" finished-at="2024-07-25T18:05:56 CDT" duration-ms="614">
+    <test started-at="2024-07-26T23:52:44 CDT" name="Default test" finished-at="2024-07-26T23:54:37 CDT" duration-ms="112989">
       <class name="com.excledata.DataRead2">
-        <test-method signature="dataRead()[pri:0, instance:com.excledata.DataRead2@55183b20]" started-at="2024-07-25T18:05:55 CDT" name="dataRead" finished-at="2024-07-25T18:05:56 CDT" duration-ms="578" status="PASS">
+        <test-method signature="dataRead()[pri:0, instance:com.excledata.DataRead2@31304f14]" started-at="2024-07-26T23:52:44 CDT" name="dataRead" finished-at="2024-07-26T23:52:45 CDT" duration-ms="775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataRead -->
       </class> <!-- com.excledata.DataRead2 -->
+      <class name="com.test.WebElementList">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.WebElementList@1d296da]" started-at="2024-07-26T23:52:45 CDT" name="Initalization" finished-at="2024-07-26T23:52:52 CDT" duration-ms="7142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initalization -->
+        <test-method signature="MouseHovering()[pri:1, instance:com.test.WebElementList@1d296da]" started-at="2024-07-26T23:52:52 CDT" name="MouseHovering" finished-at="2024-07-26T23:52:54 CDT" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHovering -->
+        <test-method signature="DropDown()[pri:2, instance:com.test.WebElementList@1d296da]" started-at="2024-07-26T23:52:54 CDT" name="DropDown" finished-at="2024-07-26T23:52:55 CDT" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.test.WebElementList@1d296da]" started-at="2024-07-26T23:52:55 CDT" name="cleanUp" finished-at="2024-07-26T23:52:55 CDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.test.WebElementList -->
+      <class name="com.excledata.ReadData">
+        <test-method signature="DataRead()[pri:0, instance:com.excledata.ReadData@7cc0cdad]" started-at="2024-07-26T23:52:45 CDT" name="DataRead" finished-at="2024-07-26T23:52:45 CDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataRead -->
+      </class> <!-- com.excledata.ReadData -->
+      <class name="Excersises.MAPS1">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:Excersises.MAPS1@7c7a06ec]" started-at="2024-07-26T23:52:55 CDT" name="initialization" finished-at="2024-07-26T23:53:19 CDT" duration-ms="23559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="test2087()[pri:0, instance:Excersises.MAPS1@7c7a06ec]" started-at="2024-07-26T23:53:19 CDT" name="test2087" finished-at="2024-07-26T23:54:37 CDT" duration-ms="78058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2087 -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Excersises.MAPS1@7c7a06ec]" started-at="2024-07-26T23:54:37 CDT" name="cleanup" finished-at="2024-07-26T23:54:37 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- Excersises.MAPS1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
